@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio - Shopify Designer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+<header>
+    <div class="container">
+      <h1 class="logo">Shopify Designer</h1>
+      <nav>
+        <div class="hamburger" id="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>I Design High-Converting Shopify Stores</h2>
+      <p>Helping e-commerce brands grow with stunning, user-friendly designs.</p>
+      <a href="#portfolio" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2>My Portfolio</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="moa.png" alt="Shopify Store Design 2">
+            <div class="overlay">
+              <h3>Project 2</h3>
+              <p>Redesigned Shopify store for a beauty brand.</p>
+              <a href="https://mova-shoes-17.myshopify.com/" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i> <!-- Font Awesome external link icon -->
+              </a>
+            </div>
+          </div>
+        <div class="portfolio-item">
+          <img src="perfume.png" alt="Shopify Store Design 2">
+            <div class="overlay">
+              <h3>Project 2</h3>
+              <p>Redesigned Shopify store for a beauty brand.</p>
+              <a href="https://3raabperfume.myshopify.com/" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i> <!-- Font Awesome external link icon -->
+              </a>
+            </div>
+          </div>
+        <div class="portfolio-item">
+          <img src="qis-rugs.png" alt="Shopify Store Design 2">
+            <div class="overlay">
+              <h3>Project 2</h3>
+              <p>Redesigned Shopify store for a beauty brand.</p>
+              <a href="https://qiswa-rugs.myshopify.com/" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i> <!-- Font Awesome external link icon -->
+              </a>
+            </div>
+          </div>
+        <div class="portfolio-item">
+          <img src="qiswa.png" alt="Shopify Store Design 2">
+            <div class="overlay">
+              <h3>Project 2</h3>
+              <p>Redesigned Shopify store for a beauty brand.</p>
+              <a href="https://qiswashop.myshopify.com/" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i> <!-- Font Awesome external link icon -->
+              </a>
+            </div>
+          </div>
+        <div class="portfolio-item">
+          <img src="time-zone.png" alt="Shopify Store Design 2">
+            <div class="overlay">
+              <h3>Project 2</h3>
+              <p>Redesigned Shopify store for a beauty brand.</p>
+              <a href="https://time-zonepk.myshopify.com/" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i> <!-- Font Awesome external link icon -->
+              </a>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hi, I’m Sharjeel, a Shopify store designer with over 2 years of experience. I specialize in creating visually appealing, high-converting e-commerce stores that drive sales and enhance user experience.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Sharjeel Ahmed. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-dribbble"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    // Select elements
+const hamburger = document.getElementById("hamburger");
+const navLinks = document.getElementById("nav-links");
+
+// Toggle navigation menu
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+
+  // Animate hamburger icon
+  hamburger.classList.toggle("toggle");
+});
+  </script>
+</body>
+</html>
